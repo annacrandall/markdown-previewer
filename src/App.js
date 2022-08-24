@@ -1,16 +1,12 @@
-import React, { Component, useState, useEffect, } from "react";
+import React from "react";
 import "./index.css";
 import Preview from "./previewWindow.js";
 import Input from "./inputWindow.js";
-import { marked } from "marked";
 
 
 
 
-const Markdown = () => {
-
-
-
+const MarkdownApp = () => {
   return (
     <div id="container">
       <div className="flex justify-center font-mono px-10 py-2 m-8">
@@ -25,4 +21,4 @@ const Markdown = () => {
 };
 
 
-export default Markdown;
+export default MarkdownApp;
