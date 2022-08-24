@@ -15,12 +15,12 @@ This is an ordered list:
 
 ### And finally we will add some code: 
 Inline Code: 
-This is our `input`. 
+\` const whoRules = "Ana Crandall";\`  
 
 Code Block: 
 ```
 {
-  "firstName": "Anna",
+  "firstName": "Ana",
   "lastName": "Crandall",
 }
 ```
