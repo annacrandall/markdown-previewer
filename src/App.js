@@ -3,12 +3,12 @@ import "./index.css";
 import { marked } from "marked";
 import cookies from "./cookies.jpg"; 
 
-const renderer = new marked.Renderer(); //sets Marked renderer to a new const 
+const renderer = new marked.Renderer(); 
 
 marked.setOptions({
   breaks: true,
-})              // sets optional test for carriage returns 
-
+}); 
+          
 const defaultMarkdown = `#  This is a header! How cool. 
 ## This is a subheading. 
 
@@ -36,11 +36,7 @@ Inline Code:
 1. day `
 
 const MarkdownApp = () => {
-  const [markdownText, setMarkdownText] = useState(defaultMarkdown); //creates new state for text
-
-  //const defaultMarkdown = () => {
-
-  //} // remember, cannot set this static object. contents must be accessed and rendered. 
+  const [markdownText, setMarkdownText] = useState(defaultMarkdown); 
 
   return (
     <div className="text-center font-mono relative">
