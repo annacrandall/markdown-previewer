@@ -3,7 +3,7 @@
 
 In the project directory, you can run:
 
-To run in Netlify: [Markdown Previewer Netlify Link](https://63093990bbac180fc601ffc0--glittering-sunburst-ad477d.netlify.app/)
+To run in Netlify: [Markdown Previewer Netlify Link](https://crandall-markdown-previewer.netlify.app)
 
 ### `npm start`
 
